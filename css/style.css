@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald";
+}
+
+#mapSection {
+    position: relative;
+}
+.map {
+    width: 100%;
+    filter: invert() grayscale(1);
+}
+.gradient {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(2,255,0,0) 100%);
+    top:0;
+    left:0;
+}
+
+
+#sectionH{
+    min-height: 100vh;
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    position: relative;
+    background-image: url("../img/h5-revolution-img-1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    height:100px;
+    /* position: fixed; */
+    /* position: absolute; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    gap: 50px;
+}
+span{
+    /* display: flex; */
+    position: absolute;
+    top: 0;
+}
+nav{
+    top: 0;
+    justify-content: center;
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+    position: absolute;
+    /* justify-content: center; */
+    /* align-items: center; */
+    color: white;
+}
+ul{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.iconesrs{
+    top: 0;
+    right: 0;
+    display: flex;
+    position: absolute;
+    gap: 10px;
+    color: white;
+}
+#imgBG{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+#sectionII{
+    width: 100%;
+    padding: 40px;
+    margin: 100px 20px;
+    background-color: rgb(189, 146, 81);
+}
+#sectionII p{
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+#sectionIII{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+
+}
+#rowh{
+    display: flex;
+
+}
+#rowl{
+    display: flex;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#sectionIII h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-style: italic;
+    font-size: small;
+}
+#sectionIII p{
+    text-align: center;
+    /* font-family: Raleway; */
+    font-size: medium;
+}
+#rowh aside{
+    background-image: url(img/h5-el-holder-img-1-1.jpg);
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* position: relative; */
+    width: 100%;
+
+}
+#rowh span{
+    position: relative;
+    top:0;
+}
+
+
+
+
+
+
+
+
